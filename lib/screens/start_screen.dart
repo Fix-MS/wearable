@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:new_wear_os/utils.dart';
 import 'package:new_wear_os/wear.dart';
@@ -52,7 +51,7 @@ class StartScreenUI extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 mainAxisSize: MainAxisSize.max,
                 children: <Widget>[
-                  FlutterLogo(size: 60),
+                  new Image.asset('assets/images/logo.png', width: 60, height: 60),
                   // child: Image.asset('assets/images/logo.png'),
                   SizedBox(height: 10),
                   ElevatedButton(
@@ -82,5 +81,6 @@ class StartScreenUI extends StatelessWidget {
           );
     
     }));
+
   }
 }
