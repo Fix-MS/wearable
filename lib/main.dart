@@ -20,12 +20,13 @@ class MyApp extends StatelessWidget {
 
 class WatchScreen extends StatelessWidget {
   @override
+  
   Widget build(BuildContext context) => WatchShape(
         builder: (context, shape) => InheritedShape(
               shape: shape,
               child: AmbientMode(
                 builder: (context, mode) =>
-                    StartScreen(),
+                    StartScreenUI(),
               ),
             ),
       );
