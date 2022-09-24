@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:new_wear_os/utils.dart';
-import 'package:new_wear_os/constant.dart';
 import 'package:new_wear_os/wear.dart';
+import 'package:new_wear_os/constant.dart';
 
 import 'package:new_wear_os/screens/name_screen.dart';
 
