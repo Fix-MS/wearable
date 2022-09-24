@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:new_wear_os/utils.dart';
 import 'package:new_wear_os/wear.dart';
+import 'package:new_wear_os/colors.dart';
 
-class HexColor extends Color {
-  static int _getColor(String hex) {
-    String formattedHex =  "FF" + hex.toUpperCase().replaceAll("#", "");
-    return int.parse(formattedHex, radix: 16);
-  }
-  HexColor(final String hex) : super(_getColor(hex));
-}
+// class HexColor extends Color {
+//   static int _getColor(String hex) {
+//     String formattedHex =  "FF" + hex.toUpperCase().replaceAll("#", "");
+//     return int.parse(formattedHex, radix: 16);
+//   }
+//   HexColor(final String hex) : super(_getColor(hex));
+// }
 class NameScreen extends StatelessWidget {
   final screenHeight;
   final screenWidth;
