@@ -51,7 +51,7 @@ class StartScreenUI extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 mainAxisSize: MainAxisSize.max,
                 children: <Widget>[
-                  new Image.asset('assets/images/logo.png', width: 60, height: 60),
+                  new Image.asset('assets/images/logo.png', width: 75, height: 75),
                   // child: Image.asset('assets/images/logo.png'),
                   SizedBox(height: 10),
                   ElevatedButton(
